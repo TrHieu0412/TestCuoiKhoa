@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#151B32;
+    --secondary-color:#BFC8E5;
+    --primary-font: 'Merriweather', serif;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+.User{
+    font-family: var(--primary-font);
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--primary-color);
+    padding-bottom: 30px;
+}
+.taskbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.taskbar .taskbar-search{
+    display: flex;
+    align-items: flex-start;
+    min-width: 300px;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    gap: 20px;
+    border-radius: 8px;
+}
+.taskbar .taskbar-search p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    padding-top: 10px;
+    opacity: 0.7;
+}
+.taskbar .taskbar-search .icon{
+    font-size: 24px;
+    color: var(--primary-color);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.taskbar .taskbar-menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--secondary-font);
+}
+.taskbar .taskbar-menu ul{
+    display: flex;
+    gap: 16px;
+
+}
+.taskbar .taskbar-menu ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+}
+.taskbar .taskbar-menu .new-user{
+    background-color: #849FFF;
+    color: white;
+    border-radius: 8px;
+    min-height: 56px;
+    padding-top: 15px;
+}
+.card-member{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.card-container{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    background: #FBFCFF;
+    border-radius: 16px;
+    justify-content: center;
+    margin-left: 10px;
+    min-width:400px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    
+}
+.card-member .card-img{
+    width: auto;
+}
+.card-container .card-infor .card-name{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--primary-font);
+    margin-top: 50px;
+}
+.card-container .card-infor .card-address{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: var(--secondary-font);
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.card-container .card-infor .card-interest{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #516FD5;
+    font-family: var(--secondary-font);
+    
+}
+.card-container .card-infor .card-interest p{
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    min-width: auto;
+    padding: 5px;
+}
+
+.diffent{
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+
+}
+.card-interst-2{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #516FD5;
+    font-family: var(--secondary-font);
+}
+.card-interst-2 p{
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    min-width: auto;
+    padding: 5px;
+}
+

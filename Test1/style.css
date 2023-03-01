@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sumofNumber{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px ;
+}
+.sumofNumber h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sumofNumber .num1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.sumofNumber .num1 input{
+    line-height: 25px;
+    margin-left: 25px;
+}
+.sumofNumber .num2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.sumofNumber .num2 input{
+    line-height: 25px;
+    margin-left: 25px;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.btn{
+    border: 1px solid black;
+    font-size: 15px;
+    line-height:20px;
+    border-radius: 50px;
+    cursor: pointer;
+    min-width: 100px;
+
+}
